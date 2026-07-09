@@ -39,14 +39,15 @@ class Expense extends Equatable {
     };
   }
 
-  Expense copyWith(
+  // Change to Named Parameters (with curly braces)
+  Expense copyWith({
     String? title,
     double? amount,
     DateTime? date,
     Category? category,
-  ) {
+  }) {
     return Expense(
-      id: id,
+      id: id, // Keep the existing ID
       title: title ?? this.title,
       amount: amount ?? this.amount,
       date: date ?? this.date,
