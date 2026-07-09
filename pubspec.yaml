@@ -13,9 +13,10 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
   intl: ^0.20.3
   rxdart: ^0.28.0
-  shared_preferences: ^2.5.5
   uuid: ^4.5.3
 
 dev_dependencies:
